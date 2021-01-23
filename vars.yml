@@ -1,0 +1,13 @@
+---
+emby_user: "torrent"
+
+mount_paths:
+  - mount_path: /mnt/external
+    mount_from: /dev/sda1
+    type: ext4
+  - mount_path: /home/torrent/media
+    mount_from: /mnt/external/media
+    depends: /mnt/external
+    user: torrent
+    type: None
+    options: bind
