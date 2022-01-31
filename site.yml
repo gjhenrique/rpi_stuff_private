@@ -16,3 +16,5 @@
       tags: emby
     - role: mount
       tags: mount
+    - role: artis3n.tailscale
+      tags: tailscale
