@@ -1,6 +1,8 @@
 ---
 emby_user: "torrent"
 
+emby_version: "4.7.0.23-beta"
+
 mount_paths:
   - mount_path: /mnt/external
     mount_from: /dev/sda1
