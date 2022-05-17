@@ -1,7 +1,10 @@
 ---
 emby_user: "torrent"
 
-emby_version: "4.7.0.23-beta"
+emby_version: "4.7.0.34-beta"
+
+docker_users:
+  - torrent
 
 torrent_nordvpn_country: br
 

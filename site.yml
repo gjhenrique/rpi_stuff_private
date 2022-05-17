@@ -5,6 +5,7 @@
     - gjhenrique.rpi_stuff
   vars_files:
     - secrets.yml
+    - vars.yml
   roles:
     - role: duckdns
       tags: duckdns
@@ -18,3 +19,5 @@
       tags: mount
     - role: artis3n.tailscale
       tags: tailscale
+    - role: geerlingguy.docker_arm
+      tags: docker
